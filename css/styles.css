@@ -10,30 +10,93 @@ html {
 body {
   background-image: url("../images/bg.jpg");
 }
-.container {
-  margin: 0;
+.container.text-center > .row > .col-6 {
   padding: 0;
 }
-.links {
-  display: flex;
-  justify-content: flex-end;
+.col-2.left {
+  margin-right: 10%;
 }
-.socials {
-  background-color: #485793;
+.row.navlinks {
+  background-color: #a63634;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 1rem;
 }
-.image-compilation {
-  max-width: 100%;
-  height: 300px;
+.row.navlinks > a {
+  padding: 0;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 75%;
+}
+.row.socialnav {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.col-1.sub {
+  font-size: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 6px;
+}
+.col-1.facebook {
+  background-color: #485893;
+  color: #ffffff;
+  border-bottom: 3px solid #7e7d7b;
+  width: 30px;
+  padding: 0;
+}
+.col-1.twitch {
+  background-color: #583e94;
+  color: #ffffff;
+  border-bottom: 3px solid #7e7d7b;
+  width: 30px;
+  padding: 0;
+  margin-left: 1%;
+}
+.col-1.twitter {
+  background-color: #4d9feb;
+  color: #ffffff;
+  border-bottom: 3px solid #7e7d7b;
+  width: 30px;
+  padding: 0;
+  margin-left: 1%;
+}
+.col-1.youtube {
+  background-color: #ea3323;
+  color: #ffffff;
+  border-bottom: 3px solid #7e7d7b;
+  width: 30px;
+  padding: 0;
+  margin-left: 1%;
+}
+.row.image-compilation {
+  width: 100%;
+  height: 15rem;
   position: relative;
   border: 5px solid #ffffff;
-  object-fit: fill;
+  object-fit: cover;
   overflow: hidden;
+  background-image: url("../images/top-image.png");
+  background-size: cover;
 }
-.image-compilation > img {
+.row.image-compilation > img {
   position: absolute;
-  width: 100%;
 }
-.skateboards > img {
+
+.image- .logo-image {
+  position: absolute;
+  width: 50%;
+  top: 20%;
+}
+.background-image {
+  width: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+
+.row.skateboards {
+  background-color: #ffffff;
+  height: 150px;
 }
 .boards {
   transform: rotate(90deg);
@@ -41,4 +104,7 @@ body {
 .form {
   display: flex;
   flex-direction: column;
+}
+.contact-us {
+  background-color: #f1f1f1;
 }
