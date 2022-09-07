@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after {
@@ -85,6 +84,9 @@ section {
   background-image: url("../images/top-image.png");
   background-size: cover;
 }
+.col-12.grid {
+  width: 100;
+}
 .row.image-compilation > img {
   position: absolute;
 }
@@ -99,7 +101,10 @@ section {
   object-fit: cover;
   padding: 0;
 }
-.row.skateboarders {
+.col.article {
+  background-color: #fdfdfd;
+}
+.row .row.skateboarders {
   width: 100%;
 }
 .col-6.lance {
@@ -165,6 +170,9 @@ section {
 }
 .boards {
   transform: rotate(90deg);
+  /* transform: translateY(-150%); */
+
+  transform-origin: 30%;
 }
 .form {
   display: flex;
