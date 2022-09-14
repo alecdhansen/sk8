@@ -12,67 +12,86 @@ ul {
 body {
   background-image: url("../images/bg.jpg");
 }
-section {
-  border-bottom: 3px solid rgba(126, 125, 123, 0.5);
-}
-.container.text-center > .row > .col-6 {
-  padding: 0;
-}
-.col-2.left {
-  margin-right: 10%;
-}
-.row.navlinks {
-  background-color: #a63634;
-  text-decoration: none;
+.navlinks {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 12px;
 }
-.row.navlinks > a {
-  padding: 0;
+.navlinks > .button {
+  margin: 0 3px;
+  background-color: #a63634;
+  font-size: 75%;
+  border-bottom: 3px solid rgba(126, 125, 123);
+  width: 100%;
+}
+.navlinks > .button > a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 75%;
 }
-.row.socialnav {
+.socialnav {
   width: 100%;
-  margin-bottom: 0.5rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
-.col-1.sub {
+.socialnav > li > a {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.sub {
   font-size: 10px;
   color: #ffffff;
   text-decoration: none;
   padding-top: 6px;
 }
-.col-1.facebook {
+.facebook {
   background-color: #485893;
   color: #ffffff;
   border-bottom: 3px solid #7e7d7b;
-  width: 30px;
   padding: 0;
+  margin-left: 50px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
 }
-.col-1.twitch {
+
+.twitch {
   background-color: #583e94;
   color: #ffffff;
   border-bottom: 3px solid #7e7d7b;
-  width: 30px;
   padding: 0;
-  margin-left: 1%;
+  margin-left: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
 }
-.col-1.twitter {
+.twitter {
   background-color: #4d9feb;
   color: #ffffff;
   border-bottom: 3px solid #7e7d7b;
-  width: 30px;
   padding: 0;
-  margin-left: 1%;
+  margin-left: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
 }
-.col-1.youtube {
+.youtube {
   background-color: #ea3323;
   color: #ffffff;
   border-bottom: 3px solid #7e7d7b;
-  width: 30px;
   padding: 0;
-  margin-left: 1%;
+  margin-left: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
 }
 .row.g-2 {
   border-color: black;
@@ -87,13 +106,12 @@ section {
   background-image: url("../images/top-image.png");
   background-size: cover;
 }
-.col-12.grid {
+.grid {
   width: 100;
 }
 .row.image-compilation > img {
   position: absolute;
 }
-
 .logo-image {
   position: absolute;
   width: 50%;
