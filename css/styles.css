@@ -149,9 +149,6 @@ body {
   color: #a73534;
   font-weight: 600;
 }
-.row.skateboarders {
-  width: 100%;
-}
 .col-6.lance {
   background-image: url("../images/sk8er-4.png");
   width: 48%;
@@ -206,19 +203,23 @@ body {
   align-items: center;
   font-family: "Permanent Marker", cursive;
 }
-.row.skateboards {
-  background-color: #ffffff;
-  height: 150px;
+.skateboards {
   width: 100%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  height: 280px;
+  background-color: #ffffff;
+  margin: 20px auto;
+}
+.skateboards > div {
+  position: relative;
+  height: 265px;
+  width: auto;
+  padding: 5px;
 }
 .boards {
-  transform: rotate(90deg);
-  /* transform: translateY(-150%); */
-
-  transform-origin: 30%;
-  height: 60px;
+  position: absolute;
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(-100%);
+  width: 270px;
 }
 .form {
   display: flex;
@@ -227,4 +228,19 @@ body {
 }
 .contact-us {
   background-color: #f1f1f1;
+}
+
+@media (max-width: 500px) {
+  .skateboards {
+    width: 280px;
+    height: auto;/
+  }
+
+  .skateboards > div {
+    height: auto;
+  }
+  .boards {
+    transform: initial;
+    position: relative;
+  }
 }
