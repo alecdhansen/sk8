@@ -122,8 +122,32 @@ body {
   object-fit: cover;
   padding: 0;
 }
-.col.article {
+.news-section {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.article {
   background-color: #fdfdfd;
+  margin: 5px;
+  border-bottom: 4px solid #817d7d;
+  position: relative;
+  padding: 20px;
+}
+.article > h2 {
+  color: #353632;
+}
+.article > time {
+  color: #a9a6a6;
+}
+.article > p {
+  color: #5c5959;
+}
+.article > a {
+  text-decoration: none;
+  color: #a73534;
+  font-weight: 600;
 }
 .row.skateboarders {
   width: 100%;
