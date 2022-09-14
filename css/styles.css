@@ -176,8 +176,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
 }
 .rodney {
   background-image: url("../images/sk8er-3.png");
@@ -276,5 +274,16 @@ body {
   .boards {
     transform: initial;
     position: relative;
+  }
+  .form-submit {
+    margin-left: 0;
+  }
+  .facebook {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1375px) {
+  .before::before {
+    display: none;
   }
 }
