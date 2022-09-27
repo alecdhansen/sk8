@@ -10,7 +10,8 @@ ul {
   list-style-type: none;
 }
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url("../images/bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url("../images/bg.jpg");
 }
 .navlinks {
   width: 100%;
@@ -167,12 +168,12 @@ body {
   content: "SKATEBOARDERS";
   height: 60px;
   width: 150px;
-  background-color:#a73534;
+  background-color: #a73534;
   position: absolute;
   border-bottom: 3px solid rgba(126, 125, 123);
   top: 1050px;
   left: 180px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -259,13 +260,13 @@ body {
 }
 .form-submit {
   color: #f1f1f1;
-  background-color: #A63634;
+  background-color: #a63634;
   margin-left: 100px;
 }
 @media (max-width: 500px) {
   .skateboards {
     width: 280px;
-    height: auto;/
+    height: auto;
   }
 
   .skateboards > div {
