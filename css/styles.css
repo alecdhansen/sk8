@@ -166,11 +166,11 @@ body {
 }
 .lance {
   background-image: url("../images/sk8er-4.png");
-  /* width: 48%; */
+  width: 49%;
   height: 200px;
   background-position: 100%;
   box-shadow: 5px 5px #fff inset, -5px -5px #fff inset;
-  /* margin-right: 7px; */
+  /* margin-right: 5px; */
   margin-bottom: 5px;
   color: #ffffff;
   font-size: 30px;
@@ -180,11 +180,11 @@ body {
 }
 .rodney {
   background-image: url("../images/sk8er-3.png");
-  /* width: 48%; */
+  width: 49%;
   height: 200px;
   background-position: 20%;
   box-shadow: 5px 5px #fff inset, -5px -5px #fff inset;
-  /* margin-left: 5px; */
+  margin-left: 6px;
   margin-bottom: 5px;
   color: #ffffff;
   font-size: 30px;
@@ -194,7 +194,7 @@ body {
 }
 .steve {
   background-image: url("../images/sk8er-1.png");
-  /* width: 100%; */
+  width: 99%;
   height: 200px;
   background-position: -50px -100px;
   box-shadow: 5px 5px #fff inset, -5px -5px #fff inset;
@@ -213,7 +213,7 @@ body {
   height: 405px;
   object-fit: cover;
   box-shadow: 5px 5px #fff inset, -5px -5px #fff inset;
-  /* margin-left: 5px; */
+  /* margin-left: -15px; */
   color: #ffffff;
   font-size: 30px;
   display: flex;
@@ -272,6 +272,9 @@ body {
   }
   .tommy {
     height: 300px;
+  }
+  .steve {
+    width: 100%;
   }
   .skateboards > div {
     height: auto;
